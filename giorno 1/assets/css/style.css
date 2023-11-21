@@ -200,10 +200,10 @@ footer a {
 
 
 
-/* Small devices (landscape phones, 576px and up)*/
-@media screen and (min-width: 576px) 
+/* Small devices (landscape phones, 320px and up)*/
+@media screen and (min-width: 320px) 
 
-{  #homearticolijob {display: flex;
+{  #fineul {display: flex;
     flex-direction: row ;
     justify-content: center;
    
@@ -212,11 +212,14 @@ footer a {
     }
 
 
-input{width:80%;
+input{width:50%;
     padding:10px;}
 
-    button{padding:11px;
-        font-size: 1.1rem;}
+    button{padding:13px;
+        font-size: 1.2rem;}
+
+footer{line-height: 1.7rem;}
+        
     
 }
 
@@ -225,9 +228,11 @@ input{width:80%;
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px )
 
-{#allineatabelladesktop{display:flex;
+{
+   h1{font-size: 4.3rem;}
+    #allineatabelladesktop{display:flex;
 justify-content: center;}
-#homearticolijob {display: flex;
+#fineul {display: flex;
     flex-direction: row ;
     justify-content: center;
    
@@ -253,16 +258,48 @@ button{padding:13px;
 /* X-Large devices (large desktops, 1200px and up)*/
 @media screen and (min-width: 1200px )
 
-{
-    #logo{display: flex;
+{/*
+    header{
+        padding: 2% 2%;
+    }
+
+    header, header > div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.1em;
+    }
+
+    header div img{
+        margin-bottom: 0;
+    }
+
+    header ul > li{
+        padding-right: 3%;
+    }
+
+    nav{
+        width: 30%;
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: end;
+    }*/
+
+    #logoheader{display: flex;
         flex-direction: row ;
-        justify-content: flex-start;} 
+        justify-content: space-between;} 
     
-    #homearticolijob {display: flex;
-    flex-direction: row ;
-    margin-left: 650px; 
-}
-ul li+li{margin-left: 15px;}
+   
+
+
+#fineul{display: flex;
+    flex-direction: row ;}
+
+    ul li+li{margin-left: 15px;}
+
+
 #allineatabelladesktop{display:flex;
     justify-content: center;
 
@@ -287,7 +324,7 @@ iframe{width:50%;
 
         #articolisingoli{width:100%;
         height:100%;
-        margin:0;}
+    margin: 0;}
 
 
         .responsive {width: 70%;}
@@ -297,7 +334,7 @@ iframe{width:50%;
 }
 
 
-
+@media print {}
 
 
     
