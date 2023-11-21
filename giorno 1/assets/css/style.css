@@ -286,16 +286,36 @@ button{padding:13px;
         display: flex;
         justify-content: end;
     }*/
+    header{
+        padding: 2% 2%;
+    }
 
-    #logoheader{display: flex;
-        flex-direction: row ;
-        justify-content: space-between;} 
-    
-   
+    header, header > div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.1em;
+    }
+
+    header div img{
+        margin-bottom: 0;
+    }
+
+    header ul > li{
+        padding-right: 3%;
+    }
+
+    nav{
+        width: 30%;
+    }
+
+   nav ul{
+        display: flex;
+        justify-content: flex-end;
+    }
 
 
-#fineul{display: flex;
-    flex-direction: row ;}
+
 
     ul li+li{margin-left: 15px;}
 
