@@ -220,7 +220,7 @@ input{width:50%;
 
 footer{line-height: 1.7rem;}
         
-    
+.html5logo{width:50px}
 }
 
 
@@ -235,11 +235,11 @@ justify-content: center;}
 #fineul {display: flex;
     flex-direction: row ;
     justify-content: center;
-   
+    
     
 }ul li+li{ margin-left: 15px;
     }
-
+    .html5logo{width:75px}
 #bottoneinput{
     display: flex;
     justify-content:flex-start;
@@ -259,6 +259,9 @@ button{padding:13px;
 @media screen and (min-width: 1200px )
 
 {
+
+
+   
     header{
         padding: 2% 2%;
     }
@@ -288,8 +291,8 @@ button{padding:13px;
     }
 
 
-
-
+    p,a,li,ul{font-size:2.5rem;}
+caption,tr,td{font-size: 2.3rem;}
     ul li+li{margin-left: 15px;}
 
 
@@ -298,7 +301,7 @@ button{padding:13px;
 
 }
 
-#iframe{width:50%;
+#iframe{width:60%;
     min-height: min-content;
    height: 50%;}
    
@@ -327,6 +330,10 @@ button{padding:13px;
        }
 
        footer{font-size: 1.5rem;}
+
+       .html5logo{width:100px}
+
+     
 }
 
 
