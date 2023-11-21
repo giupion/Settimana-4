@@ -181,24 +181,38 @@ footer a {
 
 
 
-@media screen and (min-width: 1200px )
 
-{#allineatabelladesktop{display:flex;
-justify-content: center;}}
 
 @media screen and (min-width: 480px )
 
 {#allineatabelladesktop{display:flex;
-justify-content: center;}}
+justify-content: center;}
+#homearticolijob {display: flex;
+    flex-direction: row ;
+    justify-content: center;
+}}
+
+
 
 
 @media screen and (min-width: 1200px )
 
-{#logo{display: flex;
-flex-direction: row ;}}
+{
+    #logo{display: flex;
+        flex-direction: row ;
+        justify-content: flex-start;} 
+    
+    #homearticolijob {display: flex;
+    flex-direction: row ;
+    margin-left: 650px; 
+}
+ul li+li{margin-left: 15px;}
+#allineatabelladesktop{display:flex;
+    justify-content: center;}
+}
 
-@media screen and (min-width: 1200px )
 
-{#homearticolijob{display: flex;
-flex-direction: row ;}}
+
+
+
     
