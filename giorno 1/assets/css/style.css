@@ -304,9 +304,10 @@ button{padding:13px;
     justify-content: center;
 
 }
-iframe{width:50%;
+
+#iframe{width:50%;
     min-height: min-content;
-   height: fit-content;}
+   height: 50%;}
    
     #allinea-video-form{
         justify-content: center;
@@ -334,7 +335,12 @@ iframe{width:50%;
 }
 
 
-@media print {}
+@media print {
+
+    header,footer,section,aside,#iframe{display: none;}
+
+    
+}
 
 
     
