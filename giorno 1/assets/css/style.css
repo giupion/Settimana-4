@@ -178,3 +178,27 @@ footer {
 footer a {
     color: fuchsia;
 }
+
+
+
+@media screen and (min-width: 1200px )
+
+{#allineatabelladesktop{display:flex;
+justify-content: center;}}
+
+@media screen and (min-width: 480px )
+
+{#allineatabelladesktop{display:flex;
+justify-content: center;}}
+
+
+@media screen and (min-width: 1200px )
+
+{#logo{display: flex;
+flex-direction: row ;}}
+
+@media screen and (min-width: 1200px )
+
+{#homearticolijob{display: flex;
+flex-direction: row ;}}
+    
