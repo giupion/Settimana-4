@@ -6,7 +6,7 @@ body {
   padding: 15px;
   background-image: url("../img/sfondo.png");
   background-position: center center;
-position:relative;
+
 }
 
 * {
@@ -34,7 +34,19 @@ header {
 /*elemento con position relative rispetto a se stesso*/
 /*posizionato rispetto al genitore, in alto a sx genitore*/
 section>h2{position:absolute;
-top:-20px;}
+top:-25px;}
+
+.immagineunderline{position:relative;
+top:-25px;}
+
+#arrowtop{float:right;
+
+  background-color:#a02571;
+
+  font-size: 30px;
+}
+
+#arrowtop>link{color:black;}
 
 @media screen and (min-width: 800px) {
   header {
@@ -393,3 +405,5 @@ footer a {
     display: none;
   }
 }
+
+
