@@ -6,7 +6,6 @@ body {
   padding: 15px;
   background-image: url("../img/sfondo.png");
   background-position: center center;
-position:relative;
 }
 
 * {
@@ -19,8 +18,6 @@ hr {
 
 /* HEADER */
 header {
-  top:0;
-  position:sticky;
   background: rgb(0, 160, 198);
   background: linear-gradient(180deg, rgba(0, 160, 198, 1) 0%, rgba(3, 109, 134, 1) 68%);
   text-align: center;
@@ -31,38 +28,13 @@ header {
   margin-bottom: 1.5em;
   padding: 2em 1.5em;
 }
-/*elemento con position relative rispetto a se stesso*/
-/*posizionato rispetto al genitore, in alto a sx genitore*/
 
-header{top:0;
-position:sticky;}
+ h1 span{position:relative;}
 
-
-
-section>h2{position:absolute;
-top:-25px;
-text-transform: uppercase;
-
-}
-
-
-
-
-aside div{
-  position: relative;
-}
-
-#tag{position:absolute;
-right:60px;
-top:10%;
-opacity: 0.5;
-color: #969494;
-font-size: 60px;
-}
-
-
-
-  
+h1 img{width:100%;
+position:absolute;
+right: 0;
+top: 70%;}
 
 @media screen and (min-width: 800px) {
   header {
@@ -317,62 +289,11 @@ button {
   color: white;
   font-weight: bold;
 }
-
-@media screen and (min-width: 100px) {
-
-  #icone{float:right;
-    position:relative;
-    display: flex;
-    flex-direction: column;
-    bottom:-890px;
-     font-size: 30px;
-     
-     }
-     
-     #arrowtop{
-     position:relative;
-     
-       color:#a02571;
-     
-       font-size: 30px;
-     }
-     
-     
-     
-     #social{
-       
-       position:relative;
-       font-size: 30px;
-       
-     }
-     
-     #calendar{position:relative;
-       font-size: 30px;
-     
-       }
-     
-       #icone button{
-         border-radius: 15px;
-         background-color: white;
-       padding:20px;
-     border:2px solid white;
-     position:relative;
-     left: 55px;
-     top:-30px;
-     margin:5px;
-     background-color:rgba(255,255,255,0.4)
-   
-}
-}
 @media screen and (min-width: 500px) {
   input {
     display: inline-block;
     width: 70%;
   }
-
-
-
-    
 }
 @media screen and (min-width: 700px) {
   input {
@@ -381,10 +302,6 @@ button {
   button {
     padding: 15px 30px;
   }
-
- 
-  
-    
 }
 
 /* ELEMENTI NELL' ASIDE */
@@ -476,66 +393,3 @@ footer a {
     display: none;
   }
 }
-
-/*telefono*/
-@media screen and (min-width: 100px) and (max-width:500px) {
-
-  #icone{float:right;
-    position:relative;
-    display: flex;
-    flex-direction: column;
-    bottom:-890px;
-     font-size: 30px;
-     
-     }
-     
-     #arrowtop{
-     position:relative;
-     
-       color:#a02571;
-     
-       font-size: 30px;
-     }
-     
-     
-     
-     #social{
-       
-       position:relative;
-       font-size: 30px;
-       
-     }
-     
-     #calendar{position:relative;
-       font-size: 30px;
-     
-       }
-     
-       #icone button{
-         border-radius: 15px;
-         background-color: white;
-       padding:20px;
-     border:2px solid white;
-     position:relative;
-     left: 55px;
-     top:-30px;
-     margin:5px;
-     background-color:rgba(255,255,255,0.4)
-   
-}
-}
-
-
-@media screen and (min-width: 500px) and (max-width:700px) {
-  
-  
-   
-}
-
-
-    
-
-
- 
-  
-    
