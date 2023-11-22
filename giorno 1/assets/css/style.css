@@ -185,6 +185,9 @@ footer a {
     margin:0 auto 40px;
     }
 
+    .relativo{position: relative;}
+   .sticky{position:sticky;
+top:0;}
 
 
 
@@ -238,6 +241,8 @@ nav ul {display: flex;
     
     
 }
+
+
 
 
 ul li+li{ margin-left: 15px;
