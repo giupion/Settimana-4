@@ -18,6 +18,8 @@ hr {
 
 /* HEADER */
 header {
+  top:0;
+  position:sticky;
   background: rgb(0, 160, 198);
   background: linear-gradient(180deg, rgba(0, 160, 198, 1) 0%, rgba(3, 109, 134, 1) 68%);
   text-align: center;
@@ -35,6 +37,13 @@ h1 img{width:100%;
 position:absolute;
 right: 0;
 top: 70%;}
+
+section{position:relative;}
+section h2{position:absolute;
+text-transform: uppercase;
+top:-35px;}
+
+
 
 @media screen and (min-width: 800px) {
   header {
@@ -118,7 +127,7 @@ section h2 {
   margin-bottom: 1.7rem;
   font-weight: bold;
   background-color: #a3a3a3;
-  padding: 0px 1em;
+  padding: 0.5em 2.5em;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
