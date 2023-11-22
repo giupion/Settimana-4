@@ -68,6 +68,19 @@ top:-35px;}
     position:fixed;
   right:0;
   bottom:15%;}
+
+  #bottomicone a{
+    border-radius: 15px;
+    background-color: white;
+  padding:20px;
+border:2px solid white;
+background-color:rgba(255,255,255,0.4);
+margin:5px;
+}
+
+#sopraicone i{color:lightblue}
+
+  #sopraicone i{color:#a02571;}
 }
 
 
@@ -90,6 +103,19 @@ top:-35px;}
     position:fixed;
   right:0;
   bottom:15%;}
+
+  #bottomicone a{
+    border-radius: 15px;
+    background-color: white;
+  padding:20px;
+border:2px solid white;
+background-color:rgba(255,255,255,0.4);
+margin:5px;
+}
+
+#sopraicone i{color:lightblue}
+
+  #sopraicone i{color:#a02571;}
 }
 
 @media screen and (min-width: 800px){
@@ -210,16 +236,23 @@ left:15px;}
   
   
   #sopraicone{
+  
     font-size:30px;
     display:flex;
     flex-direction: column;
     float:right;
     position:absolute;
+    
   right:0;
   bottom:10%;}
   
   
+  #sopraicone i{color:lightblue}
+
+  #sopraicone i{color:#a02571;}
+
   #sottoicone{
+
     font-size:30px;
     display:flex;
     flex-direction: column;
@@ -227,6 +260,15 @@ left:15px;}
     position:absolute;
   right:0;
   bottom:10%;}
+
+  #bottomicone a{
+    border-radius: 15px;
+    background-color: white;
+  padding:20px;
+border:2px solid white;
+background-color:rgba(255,255,255,0.4);
+margin:5px;
+}
   
   p,
   ul,
