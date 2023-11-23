@@ -79,11 +79,16 @@ border-top-right-radius:15px;
 border-top-left-radius:15px;}
 
 #box-testo{
+
+  display:flex;
+  justify-content: space-around;
   border-bottom-right-radius:15px;
   border-bottom-right-radius:15px;
   border:2px solid #fef7e2;
   background-color:#fef7e2;
 }
+
+span{display: inline-block;}
 
 button{
 
