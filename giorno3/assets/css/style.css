@@ -2,76 +2,6 @@
 /*mobile*/
 
 
-/*nav{
-        background-color: rgb(254, 247, 226);
-        display: flex;
-        flex-wrap: wrap;
-        padding: 5% 7%;
-        border-radius: 96px 96px 96px 96px / 105px 105px 105px 105px;
-        justify-content: space-between;
-        height: 270px;
-
-    }
-
-
-
-    button:nth-child(1){
-        background-color: rgb(255, 224, 127);
-        width: 45%;
-        border-radius: 96px 96px 96px 96px / 105px 105px 105px 105px;
-        height: 50px;
-        border: none;
-        font-size: 1.1em;
-        font-weight: bold;
-        color: rgb(115, 34, 3);
-    }
-    button:nth-child(2){
-        background-color: rgb(255, 224, 127);
-        width: 45%;
-        border-radius: 96px 96px 96px 96px / 105px 105px 105px 105px;
-        height: 50px;
-        border: none;
-        font-size: 1.1em;
-        font-weight: bold;
-        color: rgb(115, 34, 3);
-    }
-    button:nth-child(3){
-        background-color: rgb(255, 224, 127);
-        order: -1;
-        border-radius: 96px 96px 96px 96px / 105px 105px 105px 105px;
-        height: 80px;
-        border: none;
-        font-size: 1.5em;
-        font-weight: bold;
-        color: rgb(115, 34, 3);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 20px;
-    }
-    button:nth-child(4){
-        background-color: rgb(255, 224, 127);
-        width: 45%;
-        border-radius: 96px 96px 96px 96px / 105px 105px 105px 105px;
-        height: 50px;
-        border: none;
-        font-size: 1.1em;
-        font-weight: bold;
-        color: rgb(115, 34, 3);
-    }
-    button:nth-child(5){
-        background-color: rgb(255, 224, 127);
-        width: 45%;
-        border-radius: 96px 96px 96px 96px / 105px 105px 105px 105px;
-        height: 50px;
-        border: none;
-        font-size: 1.1em;
-        font-weight: bold;
-        color: rgb(115, 34, 3);
-    }*/
-
-
-
 
 
 body{ font-family: Poppins, "Helvetica Neue", sans-serif;
@@ -83,102 +13,140 @@ body{ font-family: Poppins, "Helvetica Neue", sans-serif;
 
 
 
-header{background-color:#fef7e2;
-  border-radius: 20px;
-  margin-top:20px;}
 
-ul{
-  display: flex;
+
+  nav {
+    background-color: rgb(255, 235, 173, 0.5);
+    backdrop-filter: blur(5px);
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 1rem;
+    border-radius: 6rem;
+    display: flex; /*usa semplicemente flex e wrap*/
+    flex-wrap: wrap;
+}
+
+nav > button {
+  border: 0px;
+  background-color: #FFDF7F;
+  color: #732104;
+  font-weight: 600;
+  border-radius: 4rem;
+}
+
+#shop > img {
+  height: 2.5rem;
+  margin-right: 1.5rem;
+  vertical-align: middle;
+}
+
+#shop > p {
+  vertical-align: middle;
+  display: inline;
+}
+
+/*col tag shop allinea al centro, aumenta il font size metti width a 100,  , padding, è il primo nell 'ordine di display flex...che bastardata!*/
+#shop {
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+  padding: 1.5rem;
+  order: 0;
+  margin: 0.5rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box; /*cosi il child acquisice grandezza del parent*/
+  align-self: flex-start;
+}
+
+.navigation {
+  width: 40%; /*sulle classi lavora sui bottoni con grandezza e fa clear both*/
+  clear: both; /*toglie il float dell'elemnto adiacente ambedue parti e toglie il flex in pratica*/
+  padding: 1rem;
+  font-size: 1rem;
+  flex: auto;
   flex-wrap: wrap;
-  
-  justify-content: space-around;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
+}
 
+/*cliccando si illumna del colore applica a button come figli button*/
+nav > button:hover {
+  background-color: #fcd45a;
 }
 
 
-
-
-  ul li{list-style-type: none;}
-
-
-  nav li:nth-child(1) a {
-    font-size: 2rem;
-    font-weight: 700;
-    padding: 1.2rem;}
-
-
-ul li{margin:20px;
-    background-color:#ffdf7f ;
-    padding: 20px;
-    border-radius: 30px;
-    font-size: 15px;}
-
-  
-
-li a{
-  color:#732104 ;
-  text-decoration: none}
-  
-  img{
-  
-    align-items: center;
-    width:40px;
-  height: 25px;}
-
-  h1{text-align: center;
-  color:#732104;}
-
-  #honey-container{display:flex;
-    flex-direction: column;
- align-items: center;}
-  
-
-
-#honey
-{
-
-  
-margin:50px;
-display: flex;
-flex-wrap: wrap;
-flex-direction: column;
-font-size: 10px;
+article {
+  margin: 2rem 1rem;
 }
 
-
-#honey-container img{width:250px;
-height: 150px;
-border-top-right-radius:15px;
-border-top-left-radius:15px;}
-
-#box-testo{
-
-  display:flex;
-  justify-content: space-around;
-  border-bottom-right-radius:15px;
-  border-bottom-right-radius:15px;
-  border:2px solid #fef7e2;
-  background-color:#fef7e2;
+h1 {
+  color: #732104;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
 }
-#box-testo p,span{
-  margin-top: 15px;
- margin-bottom:15px;
-  
-  color:#732104;}
 
-  article div>p{font-weight: bolder !important;}
+.product {
+  width: 100%; /*sul primo div mette un 100% sulla classe rispetto al contenitore la pagina*/
+  border-radius: 3rem;
+  background-color: #FEF7E2;
+  color: #732104;
+  display: flex;
+  flex-wrap: wrap; /*all'inizio wrappa tutto dall'esterno*/
+  /*puoi usare il justify piu volte mette al centro e mette spazio in combinazione*/
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: baseline;
+  margin: 1rem 0;
+}
+.product > img {
+  width: 100%; /*prende il 100% del div dove c'e product e si ridimensiona*/
+  border-radius: 3rem 3rem 0rem 0rem;
+  margin-bottom: 1rem;
+}
 
-span{display: block;}
+.product > div h3 {
+  font-weight: 600;
+  font-size: 1rem;
+  justify-content: space-evenly;
+  align-content: space-between;
+  align-items: baseline; /*li allinea sulla linea inferiore dove si scrive*/
+}
 
-button{
-  background-color: #ffdf7f;
-  font-size: 10px;
-  border-radius: 15px;
-padding: 10px;}
-  
-button a{
-  text-decoration: none;
-color: black;
+.product > div p {
+  font-size: 0.8rem;
+}
+.product > div {
+  justify-content: space-evenly;
+  align-content: space-between;
+  align-items: baseline;
+  width: 40%;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 1rem;
+  vertical-align: middle;
+}
+
+.product > p {
+  margin: 1rem;
+  vertical-align: middle;
+}
+
+.product > button {
+  border: 0px; /*elimina il border*/
+  background-color: #FFDF7F;
+  color: #732104;
+  font-weight: 600;
+  border-radius: 4rem;
+  padding: 0.5rem;
+  width: 60%; /*riduce dimensione in percentuale*/
+  margin-bottom: 1rem;
+}
+
+.product > button:hover {
+  background-color: #fcd45a;
 }
 
   #lorem{background-color:#fef7e2;
@@ -207,4 +175,8 @@ color: black;
     height: 300px;
   
 }
+
+
+
+
 
