@@ -6,50 +6,43 @@ body{ font-family: Poppins, "Helvetica Neue", sans-serif;
   padding: 15px;
 
 }
-nav li:nth-child(3) a {
-  font-size: 2rem;
-  font-weight: 700;
-  padding: 1.2rem;}
 
 
-#colornav{
+
+
+header{background-color:#fef7e2;
+  border-radius: 20px;
+  margin-top:20px;}
+
+ul{
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
 
-  background-color:#fef7e2;
-border-radius: 20px;
-margin-top:20px;}
-
-
-  #navhoney{display: flex;
-    
-   flex-wrap:wrap;
-   justify-content: space-evenly;
-   flex-direction: row;
-   align-items: center;
-  }
+}
 
 
 
 
-  #navhoney div{margin:20px;
+  ul li{list-style-type: none;}
+
+
+  nav li:nth-child(1) a {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1.2rem;}
+
+
+ul li{margin:20px;
     background-color:#ffdf7f ;
     padding: 20px;
     border-radius: 30px;
     font-size: 15px;}
 
-  #shop{
-   text-align: center;
-   
-background-color:#ffdf7f ;
-padding: 20px;
-border-radius: 30px;
-font-size: 20px;
+  
 
-} 
-
-#shop a,#navhoney a{
+li a{
   color:#732104 ;
   text-decoration: none}
   
@@ -104,9 +97,11 @@ button{
  align-items: center;
   }
 
-  #lorem h1,p{
+ #lorem h1{
     margin:20px;
   }
+
+  aside p{ margin:20px;}
 
   #lorem h1{font-size:20px;
   font-weight: bolder;
