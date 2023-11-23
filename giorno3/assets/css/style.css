@@ -201,6 +201,7 @@ h1 {
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 36%, rgba(144,0,128,0) 100%);
     box-sizing: border-box;
+
 }
 
 nav {
@@ -436,3 +437,147 @@ main {
 
 }
 
+@media screen and (min-width: 1025px) {
+
+
+
+  
+
+    header {
+      padding: 0;
+      margin: 0;
+      width: 20%;
+      height: 100%;
+      position: fixed; /* se non metti position fixed non va*/
+  }
+    
+    
+    nav {
+    background-color: #ffebad80;
+    backdrop-filter: blur(5px);
+   
+    height: 100%;
+    margin: 0;
+    padding: 1rem;
+    border-radius: 6rem;
+    display: flex; /*usa semplicemente flex e wrap*/
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+  
+  }
+  
+  #shop {
+    margin-top:20px;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .navigation {
+    font-size: 0.8rem;
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    margin: 0;
+    margin-bottom: 2rem;
+    align-self: auto;
+    max-width: 100%; /*setta nuovamente grandezze quando non va*/
+    max-height: 10%;
+  }
+  
+  
+  #shop {
+    order: 0;
+  }
+  
+  #uno {
+    order: 1;
+  }
+  
+  #due {
+    order: 2;
+  }
+  
+  #tre {
+    order: 3;
+  }
+  
+  #quattro {
+    order: 4;
+  }
+  
+  main {
+    margin: 0;
+
+    width: 80%;
+    float: right;
+  }
+
+  h1 {
+    
+    font-size: 2rem;
+}
+article >section {
+  flex-wrap: unset;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+
+
+.product {
+  width: 27%;
+  border-radius: 3rem;
+  background-color: #FEF7E2;
+  color: #732104;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem 1;
+}
+  .product > img {
+    width: 100%;
+    border-radius: 3rem 3rem 0rem 0rem;
+    margin-bottom: 1rem;
+  }
+  
+  .product > div h3 {
+    font-weight: 600;
+    font-size: 1rem;
+    justify-content: space-evenly;
+    align-content: space-between;
+    align-items: baseline;
+  }
+  
+  .product > div p {
+    font-size: 0.8rem;
+  }
+  .product > div {
+    justify-content: space-evenly;
+    align-content: space-between;
+    align-items: baseline;
+    width: 40%;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 1rem;
+    vertical-align: middle;
+  }
+  .product > p {
+    margin: 1rem;
+    vertical-align: middle;
+  }
+  
+  .product > button {
+    border: 0px;
+    background-color: #FFDF7F;
+    color: #732104;
+    font-weight: 600;
+    border-radius: 4rem;
+    padding: 0.5rem;
+    width: 60%;
+    margin-bottom: 1rem;
+}
+}
+  
+  
