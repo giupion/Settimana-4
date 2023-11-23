@@ -1,0 +1,96 @@
+
+/*mobile*/
+
+body{ font-family: Poppins, "Helvetica Neue", sans-serif;
+  line-height: 1.6;
+  padding: 15px;
+
+}
+nav li:nth-child(3) a {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1.2rem;}
+
+
+#colornav{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color:#fef7e2;
+border-radius: 20px;
+margin-top:20px;}
+
+
+  #navhoney{display: flex;
+    
+   flex-wrap:wrap;
+   justify-content: space-evenly;
+   flex-direction: row;
+   align-items: center;
+  }
+
+
+
+
+  #navhoney div{margin:20px;
+    background-color:#ffdf7f ;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 15px;}
+
+  #shop{
+   text-align: center;
+   
+background-color:#ffdf7f ;
+padding: 20px;
+border-radius: 30px;
+font-size: 20px;
+
+} 
+
+#shop a,#navhoney a{
+  color:#732104 ;
+  text-decoration: none}
+  
+  img{
+  
+    align-items: center;
+    width:40px;
+  height: 25px;}
+
+  h1{text-align: center;
+  color:#732104;}
+
+  #honey-container{display:flex;
+    flex-direction: column;
+ align-items: center;}
+  
+
+
+#honey
+{
+
+  
+margin:50px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+font-size: 10px;
+}
+
+
+#honey-container img{width:250px;
+height: 150px;
+border-top-right-radius:15px;
+border-top-left-radius:15px;}
+
+#box-testo{
+  
+  border:2px solid #fef7e2;
+  background-color:#fef7e2;
+}
+
+button{
+
+  font-size: 10px;}
