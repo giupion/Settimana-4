@@ -234,12 +234,6 @@ nav > button:hover {
   margin-right: 0.5rem;
   
 }
-
-#shop > p {
-  
-
-}
-
 /*col tag shop allinea al centro, aumenta il font size metti width a 100,  , padding, è il primo nell 'ordine di display flex...che bastardata!*/
 #shop {
   font-size: 1rem;
@@ -299,6 +293,8 @@ article > section {
   justify-content: space-evenly;
 }
 
+
+section:nth-child(4){display:none;}
 .product {
   width: 40%;/*aggiusta codice e dimensioni e poi allinearli con display flex*/
   border-radius: 3rem;
@@ -359,6 +355,8 @@ article > section {
   background-color: #fcd45a;
 }
 
-
-@media screen and (min-width: 769px)
 }
+@media screen and (min-width: 769px)
+
+{}
+
