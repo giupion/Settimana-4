@@ -183,9 +183,182 @@ h1 {
   width: 70%; /*metti primo contenitore a 100 e poi altro a 70 si risolve cosi*/
 
 }
+/*320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV*/
+
+@media screen and (min-width: 560px) {
 
 
 
+  header{
+    margin: 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 36%, rgba(144,0,128,0) 100%);
+    box-sizing: border-box;
+}
+
+nav {
+  background-color: rgb(255, 235, 173, 0.5);
+  backdrop-filter: blur(5px);
+  width: auto;
+  height: auto;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0;
+  box-sizing: border-box;
+  justify-content: center;
+  
+}
+
+nav > button {
+  border: 0px;
+  background-color: #FFDF7F;
+  color: #732104;
+  font-weight: 600;
+}
+
+nav > button:hover {
+  background-color: #fcd45a;
+}
 
 
+#shop > img {
+  height: 1.5rem;
+  margin-right: 0.5rem;
+  
+}
 
+#shop > p {
+  
+
+}
+
+/*col tag shop allinea al centro, aumenta il font size metti width a 100,  , padding, è il primo nell 'ordine di display flex...che bastardata!*/
+#shop {
+  font-size: 1rem;
+  text-align: center;
+  width: auto; /*auto lo mette a impostazioni base,perche prima la width di p prima per mobile era 100!*/
+  padding: 1.5rem;
+  order: 0;
+  margin: 0.1rem;
+  margin-bottom: 0.5rem;
+  
+  order: 3;
+ 
+}
+
+
+.navigation {
+  width: auto;
+  max-width: 30%;
+  height: auto;
+  padding: 1rem;
+  font-size: 0.8rem;
+  flex-wrap: wrap;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+  margin-bottom: 1rem;
+
+}
+
+
+#uno {
+  order: 1;
+}
+
+#due {
+  order: 2;
+}
+
+#tre {
+  order: 4;
+}
+
+#quattro {
+  order: 5;
+}
+
+
+article {
+  margin: 2rem 1rem;
+  text-align: left;
+}
+
+article > section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: baseline;
+  justify-content: space-evenly;
+}
+
+.product {
+  width: 40%;/*aggiusta codice e dimensioni e poi allinearli con display flex*/
+  border-radius: 3rem;
+  background-color: #FEF7E2;
+  color: #732104;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: baseline;
+  margin: 1rem 0;
+}
+
+.product > img {
+  width: 100%;
+  border-radius: 3rem 3rem 0rem 0rem;
+  margin-bottom: 1rem;
+}
+
+.product > div h3 {
+  font-weight: 600;
+  font-size: 1rem;
+  justify-content: space-evenly;
+  align-content: space-between;
+  align-items: baseline;
+}
+
+.product > div p {
+  font-size: 0.8rem;
+}
+.product > div {
+  justify-content: space-evenly;
+  align-content: space-between;
+  align-items: baseline;
+  width: 40%;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 1rem;
+  vertical-align: middle;
+}
+.product > p {
+  margin: 1rem;
+  vertical-align: middle;
+}
+
+.product > button {
+  border: 0px;
+  background-color: #FFDF7F;
+  color: #732104;
+  font-weight: 600;
+  border-radius: 4rem;
+  padding: 0.5rem;
+  width: 60%;
+  margin-bottom: 1rem;
+}
+
+.product > button:hover {
+  background-color: #fcd45a;
+}
+
+
+769px
+}
