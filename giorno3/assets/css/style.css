@@ -356,7 +356,83 @@ section>div:nth-child(4){display:none;}
 }
 
 }
-@media screen and (min-width: 769px)
+@media screen and (min-width: 770px)
 
-{}
+{ 
+
+  header {
+    padding: 0;
+    margin: 0;
+    width: 30%;
+    height: 100%;
+    position: fixed; /* se non metti position fixed non va*/
+}
+  
+  
+  nav {
+  background-color: #ffebad80;
+  backdrop-filter: blur(5px);
+ 
+  height: 100%;
+  margin: 0;
+  padding: 1rem;
+  border-radius: 6rem;
+  display: flex; /*usa semplicemente flex e wrap*/
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+#shop {
+  margin-top:20px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.navigation {
+  font-size: 0.8rem;
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+  margin: 0;
+  margin-bottom: 2rem;
+  align-self: auto;
+  max-width: 100%; /*setta nuovamente grandezze quando non va*/
+  max-height: 10%;
+}
+
+
+#shop {
+  order: 0;
+}
+
+#uno {
+  order: 1;
+}
+
+#due {
+  order: 2;
+}
+
+#tre {
+  order: 3;
+}
+
+#quattro {
+  order: 4;
+}
+
+main {
+  margin: 0;
+  width: 70%;
+  float: right;
+}
+/*col tag shop allinea al centro, aumenta il font size metti width a 100,  , padding, è il primo nell 'ordine di display flex...che bastardata!*/
+
+
+
+
+/*cliccando si illumna del colore applica a button come figli button*/
+
+}
 
