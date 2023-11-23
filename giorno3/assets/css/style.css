@@ -294,7 +294,7 @@ article > section {
 }
 
 
-section:nth-child(4){display:none;}
+section>div:nth-child(4){display:none;}
 .product {
   width: 40%;/*aggiusta codice e dimensioni e poi allinearli con display flex*/
   border-radius: 3rem;
