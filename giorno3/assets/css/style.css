@@ -1,6 +1,79 @@
 
 /*mobile*/
 
+
+/*nav{
+        background-color: rgb(254, 247, 226);
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5% 7%;
+        border-radius: 96px 96px 96px 96px / 105px 105px 105px 105px;
+        justify-content: space-between;
+        height: 270px;
+
+    }
+
+
+
+    button:nth-child(1){
+        background-color: rgb(255, 224, 127);
+        width: 45%;
+        border-radius: 96px 96px 96px 96px / 105px 105px 105px 105px;
+        height: 50px;
+        border: none;
+        font-size: 1.1em;
+        font-weight: bold;
+        color: rgb(115, 34, 3);
+    }
+    button:nth-child(2){
+        background-color: rgb(255, 224, 127);
+        width: 45%;
+        border-radius: 96px 96px 96px 96px / 105px 105px 105px 105px;
+        height: 50px;
+        border: none;
+        font-size: 1.1em;
+        font-weight: bold;
+        color: rgb(115, 34, 3);
+    }
+    button:nth-child(3){
+        background-color: rgb(255, 224, 127);
+        order: -1;
+        border-radius: 96px 96px 96px 96px / 105px 105px 105px 105px;
+        height: 80px;
+        border: none;
+        font-size: 1.5em;
+        font-weight: bold;
+        color: rgb(115, 34, 3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    button:nth-child(4){
+        background-color: rgb(255, 224, 127);
+        width: 45%;
+        border-radius: 96px 96px 96px 96px / 105px 105px 105px 105px;
+        height: 50px;
+        border: none;
+        font-size: 1.1em;
+        font-weight: bold;
+        color: rgb(115, 34, 3);
+    }
+    button:nth-child(5){
+        background-color: rgb(255, 224, 127);
+        width: 45%;
+        border-radius: 96px 96px 96px 96px / 105px 105px 105px 105px;
+        height: 50px;
+        border: none;
+        font-size: 1.1em;
+        font-weight: bold;
+        color: rgb(115, 34, 3);
+    }*/
+
+
+
+
+
 body{ font-family: Poppins, "Helvetica Neue", sans-serif;
   line-height: 1.6;
   padding: 15px;
@@ -87,11 +160,18 @@ border-top-left-radius:15px;}
   border:2px solid #fef7e2;
   background-color:#fef7e2;
 }
+#box-testo p,span{
+  margin-top: 15px;
+ margin-bottom:15px;
+  
+  color:#732104;}
 
-span{display: inline-block;}
+  #box-testo p{font-weight: bolder;}
+
+span{display: block;}
 
 button{
-
+  
   font-size: 10px;}
 
   #lorem{background-color:#fef7e2;
