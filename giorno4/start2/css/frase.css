@@ -22,7 +22,7 @@ padding:3em}
 opacity:0;
 overflow: hidden;
 position:absolute;
-animation:dissolvenza 12s cubic-bezier(1, 1, 1, 2) infinite }
+animation:dissolvenza 12s cubic-bezier(0.175, 0.885, 0.32, 1)  infinite }
 
 span i:nth-child(1){animation-delay: 0s; 
 	color: #6b889d;
@@ -37,20 +37,19 @@ span i:nth-child(3){animation-delay: 4s;
 @keyframes dissolvenza {
 from{opacity: 0;}
     2%{opacity:0;
-    transform:translateY(-30px)
+    transform:translateY(0px)
     }
-    5%{opacity:1;
-        transform:translateY(0px)}
+    5%{opacity:0;
+        transform:translateY(30px)}
         34%{opacity:0;
-            transform:translateY(0px)}
+            transform:translateY(-30px)}
             50%{opacity:0;
-                transform:translateY(30px)}
+                transform:translateY(0px)}
                 70%{opacity:0;
-                    transform:translateY(-30px)}
+                    transform:translateY(30px)}
                     90%{opacity:0;
-                        transform:translateY(0px)}
-    100%{opacity: 1;
-        transform:translateY(30px);}
+                        transform:translateY(-30px)}
+    100%{opacity: 1;}
 
 }
     
